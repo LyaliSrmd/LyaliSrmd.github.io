@@ -88,6 +88,13 @@ td {
   text-align: right;
 }
 
+td span {
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+  border: none;
+}
+
 th {
   color: #333333;
   font-weight: 400;
@@ -103,6 +110,7 @@ tr:nth-child(odd) {
 tr.tm-tr-header {
   background-color: #c4cdd6;
   height: 50px;
+
 }
 
 .tm-section {
@@ -131,7 +139,7 @@ p {
 img {
   max-width: 100%;
   height: 130px;
-  width: 130px;
+  width: auto;
 }
 
 figure {
